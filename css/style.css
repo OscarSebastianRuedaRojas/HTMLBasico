@@ -1,131 +1,16 @@
-@import url(variables.css);
-body{
-    background: var(--bg-PrimaryColor);
-}
-/* .box{
-    background: var(--colorSecundary);
-    color: #fff;
-    display: inline-block;
-    margin: 10px 50px;
-    padding: 20px;
-    border: 1px solid #fff;
-    outline: 1px solid orange;
-    margin-bottom: 10px;
-    width: 200px;
-    height: 30px;
-    
-    border-radius: 5px;
-    box-shadow: 1px 1px 3px black;
-} */
-
-
-
-
-
-
-.box {
-    color: var(--colorPrimary);
-    margin: 30px;
-    background: var(--bg-PrimaryColor);
-    border: dotted;
-    display: grid;
-    place-content: center;
-}
-.box:nth-child(1){
-    position: relative;
-    width: 45%;
-    height: 200px;
-}
-.box1{
-    position: absolute;
-    width: 10%;
-    height: 40%;
-    border: dotted var(--colorSecundary);
-    margin: auto;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    display: grid;
-    place-content: center;
-}
-.box:nth-child(2){
-    position: absolute;
-    width: 45%;
-    height: 200px;
-    top: 0;
-    right: 0px;
-}
-
-
-.box2_1{
-    position: absolute;
-    width: 10%;
-    height: 40%;
-    border: dotted var(--colorSecundary);
-    margin: auto;
-    left: 0;
-    bottom: 0;
-    display: grid;
-    place-content: center;
-}
-.box2_2{
-    position: absolute;
-    width: 10%;
-    height: 40%;
-    border: dotted var(--colorSecundary);
-    margin: auto;
-    left: 10%;
-    bottom: 0;
-    display: grid;
-    place-content: center;
-}
-.box:nth-child(3){
-    height: 200px;
-    width: 45%;
-    position: absolute;
-    margin: auto;
-    top: 0px;
-    bottom: 0px;
-    right: 0px;
-    left: 0px;  
-}
-.box3{
-    position: absolute;
-    width: 20%;
-    height: 40%;
-    border: dotted var(--colorSecundary);
-    margin: auto;
-    bottom: 0;
-    left: 0;
-    display: grid;
-    place-content: center;
-}
-.box:nth-child(4){
-    height: 200px;
-    width: 40%;
-    position: absolute;
-    margin: auto;
-    bottom: 0px;
-    right: 0px;
-    left: 0px;
-} 
-.box4_1{
-    position: absolute;
-    width: 20%;
-    height: 40%;
-    border: dotted var(--colorSecundary);
-    margin: auto;
-    display: grid;
-    place-content: center;
-}
-.box4_2{
-    position: absolute;
-    width: 20%;
-    height: 40%;
-    border: dotted var(--colorSecundary);
-    margin: auto;
-    right: 0;
-    top: 0;
-    display: grid;
-    place-content: center;
+/* CSS Selectores :
+Universal: *
+de tipo: etiqueta
+clases: .nombreClase
+ID: #nombreID
+por atributo: [NombreAtributo]
+descendiente: etiqueta etiqueta 
+pseudo-clases: 
+    etiqueta:link
+    etiqueta:visited
+    etiqueta:hover
+    etiqueta:active
+*/
+.titulo-h2 {
+    color: red;
 }
