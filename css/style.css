@@ -1,16 +1,24 @@
-/* CSS Selectores :
-Universal: *
-de tipo: etiqueta
-clases: .nombreClase
-ID: #nombreID
-por atributo: [NombreAtributo]
-descendiente: etiqueta etiqueta 
-pseudo-clases: 
-    etiqueta:link
-    etiqueta:visited
-    etiqueta:hover
-    etiqueta:active
+/* Jerarquia
+    Important  $$
+    estilos en linea  ¨¨
+    Identificadores   **
+    Clases  #
+    Pseudo-clases  #
+    Atributos   #
+    Elementos    &
+    Pseudo-elementos    &
 */
-.titulo-h2 {
-    color: red;
+
+
+
+.color-red{
+    color: gray
 }
+#color-blue{
+    color: blue;
+}
+
+h1 {
+    color: blueviolet !important;
+}
+
