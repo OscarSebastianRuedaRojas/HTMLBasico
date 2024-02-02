@@ -1,14 +1,17 @@
-/* Box model:
-Margin: separacion de la box exterior;
-Padding: separacion de la box interna;
-    top Right Bottom Left
-OverFlow: 
-    hidden
-    Scroll
-Outline: Linea entre border y margin;
-Position: Define la posicion de la caja
-    Absolute
-    Relative
+/* Listas,tablas y Links:
+list-style-type: Define el estilo de la lista
+    none
+    Circle
+list-style-position
+Tablas: 
+    Border-Collapse: Collapse: acomodar mejor los margenes de la tabla
+    tr: hover: 
+        background-color: ocasiona que cambie de color al colocar el mouse encima
+Links:
+a:Link: Propiedades antes de entrar en el 
+a:visited: Propiedades de el luego de ser visitado
+a:Hover: Propiedades de el con el mouse encima
+a:active: Propiedades de el mientras se esta oprimiendo
 
 */
 .color-red{
