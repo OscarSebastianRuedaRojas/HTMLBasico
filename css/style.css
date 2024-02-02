@@ -1,16 +1,15 @@
-/* Jerarquia
-    Important  $$
-    estilos en linea  ¨¨
-    Identificadores   **
-    Clases  #
-    Pseudo-clases  #
-    Atributos   #
-    Elementos    &
-    Pseudo-elementos    &
+/* Letra
+    color: asignar color a letra;
+    font-size: Asignarle tamaño a la letra;
+    text-align: Ajustar texto Eje X;
+    Text-decoration: 
+        Underline: Subrayar;
+        line-through: tachar;
+        Overline: Linea encima;
+    text-shadow: sombreado de texto
+        X Y Difuminado Color 
+    font-family: Cambiar la fuente de la letra;
 */
-
-
-
 .color-red{
     color: gray
 }
@@ -19,6 +18,7 @@
 }
 
 h1 {
-    color: blueviolet !important;
+    color: blueviolet;
+    font-size: 40px;
 }
 
