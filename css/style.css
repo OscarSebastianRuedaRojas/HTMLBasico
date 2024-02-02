@@ -1,18 +1,36 @@
-/* Listas,tablas y Links:
-list-style-type: Define el estilo de la lista
-    none
-    Circle
-list-style-position
-Tablas: 
-    Border-Collapse: Collapse: acomodar mejor los margenes de la tabla
-    tr: hover: 
-        background-color: ocasiona que cambie de color al colocar el mouse encima
-Links:
-a:Link: Propiedades antes de entrar en el 
-a:visited: Propiedades de el luego de ser visitado
-a:Hover: Propiedades de el con el mouse encima
-a:active: Propiedades de el mientras se esta oprimiendo
-
+/* FlexBox:
+Flex-direction: 
+    Row
+    row-reverse
+    Column
+    Column-reverse
+Flex-wrap: 
+    wrap: Reparte el contenido adecuadamente
+    nowrap: Acumula el contenido
+Flex-flow:
+    Direction Wrap
+Justity-content: 
+    Space-between
+    Space-around
+    Space-evenly
+    Center
+    Flex-start
+    Flex-end
+Align-itemns:
+    Flex-start
+    Flext-end
+    Center
+    Stretch
+Align-content:
+    Space-between
+    Space-around
+    Space-evenly
+    Center
+    Flex-start
+    Flex-end
+Order: Cambiar de lugar
+Flex-grow: Expanden segun cuanto coloquemos modificando widht
+flex-basis: Como un widht es compatible
 */
 .color-red{
     color: gray
