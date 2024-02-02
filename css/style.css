@@ -1,14 +1,20 @@
-/* Letra
-    color: asignar color a letra;
-    font-size: Asignarle tamaño a la letra;
-    text-align: Ajustar texto Eje X;
-    Text-decoration: 
-        Underline: Subrayar;
-        line-through: tachar;
-        Overline: Linea encima;
-    text-shadow: sombreado de texto
-        X Y Difuminado Color 
-    font-family: Cambiar la fuente de la letra;
+/* Border
+Border: Colocar borde a la caja
+    Estilo Tamaño Color
+    dotted
+    dashed
+    solid
+    double
+    groove 3D
+    ridge 3D
+    inset 3D
+    outset 3D
+    none
+    hidden
+border-style: seleccionar solo el estilo del borde;
+border-color: seleccionar solo el color del borde;
+border-radius: Hacer esquinas redondas;
+
 */
 .color-red{
     color: gray
