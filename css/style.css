@@ -1,54 +1,60 @@
-/* Grid:
-grid-template-columns:
-    Asignar columnas
-    Unidades: %, px, auto, V, fr;
-grid-template-rows:
-    Asignar Valores a filas y las crea
-    Unidades: %, px, auto, V, fr;
-grid-auto-rows:
-    Para asginar altura a las filas automaticas
-grid-auto-flow:
-    Para asignar row
-                 row-reverse
-                 column
-                 column-reverse
-repeat: (#, Valor)
-minmax(minimo, mayor)
-Column-gap:
-    Separacion de Columnas
-row-gap:
-    Separacion de filas
-gap:
-    row  column
-Auto-fill: Ajsuta el numero de columnas mientras sea el ancho minimo
-Auto-fit: ocupa todo el espacio, ajusta al limite;
-Grid-column-start: Para decir en cual inicia;
-Grid-column-end: Decir en cual finaliza;
-span: Define el numero de cuadros
-Grid-column: 
-    start/end
-Grid-row-start:
-    Dice en que fila inicia
-Grid-row-end:
-    Dice en que fila termina
-Grid-row: 
-    start/end
-Grid-area:
-    row-start/column-start/row-end/column-end
-Order: 
-Cambia el orden de los elementos
-Grid-template:
-    altura de la columna / ancho
-*/
-.color-red{
-    color: gray
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+
 }
-#color-blue{
-    color: blue;
+.formulario h3{
+    font-size: 30px;
 }
 
-h1 {
-    color: blueviolet;
-    font-size: 40px;
+.formulario .username{
+    position: relative;
+    border-bottom: 2px solid #adadad;
+    margin: 30px 0;
+}
+input{
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+}
+label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    color: #adadad;
+    transform: translateY(-50%);
+    font-size: 16px;
+    pointer-events: none;
+}
+input:focus ~ label,
+input:focus ~ label{
+    top: -5px;
+}
+
+.formulario .email{
+    position: relative;
+    border-bottom: 2px solid #adadad;
+    margin: 30px 0;
+}
+.formulario .text{
+    position: relative;
+    border-bottom: 2px solid #adadad;
+    margin: 30px 0;
+}
+.formulario button{
+    padding-inline: 22px;
+    padding-block: 12px;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 980px;
+    background: rgb(0,113,227);
+    font-weight: 300;
 }
 
