@@ -1,13 +1,14 @@
-/* Background:
-Background-color: Definir color del fondo;
-Opacity: Regular opacidad de la caja;
-Background-image: Definir imagen como imagen Con URL
-background-size: Definir como se organiza la imagen en el fondo
-    Cover
-    Contain
-    Auto
-background-repeat: Definir si el fondo se repite o no
-background-position: Define desde que parte se muestra el fondo;
+/* Box model:
+Margin: separacion de la box exterior;
+Padding: separacion de la box interna;
+    top Right Bottom Left
+OverFlow: 
+    hidden
+    Scroll
+Outline: Linea entre border y margin;
+Position: Define la posicion de la caja
+    Absolute
+    Relative
 
 */
 .color-red{
