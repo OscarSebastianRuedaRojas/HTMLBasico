@@ -1,19 +1,13 @@
-/* Border
-Border: Colocar borde a la caja
-    Estilo Tamaño Color
-    dotted
-    dashed
-    solid
-    double
-    groove 3D
-    ridge 3D
-    inset 3D
-    outset 3D
-    none
-    hidden
-border-style: seleccionar solo el estilo del borde;
-border-color: seleccionar solo el color del borde;
-border-radius: Hacer esquinas redondas;
+/* Background:
+Background-color: Definir color del fondo;
+Opacity: Regular opacidad de la caja;
+Background-image: Definir imagen como imagen Con URL
+background-size: Definir como se organiza la imagen en el fondo
+    Cover
+    Contain
+    Auto
+background-repeat: Definir si el fondo se repite o no
+background-position: Define desde que parte se muestra el fondo;
 
 */
 .color-red{
