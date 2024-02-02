@@ -1,36 +1,44 @@
-/* FlexBox:
-Flex-direction: 
-    Row
-    row-reverse
-    Column
-    Column-reverse
-Flex-wrap: 
-    wrap: Reparte el contenido adecuadamente
-    nowrap: Acumula el contenido
-Flex-flow:
-    Direction Wrap
-Justity-content: 
-    Space-between
-    Space-around
-    Space-evenly
-    Center
-    Flex-start
-    Flex-end
-Align-itemns:
-    Flex-start
-    Flext-end
-    Center
-    Stretch
-Align-content:
-    Space-between
-    Space-around
-    Space-evenly
-    Center
-    Flex-start
-    Flex-end
-Order: Cambiar de lugar
-Flex-grow: Expanden segun cuanto coloquemos modificando widht
-flex-basis: Como un widht es compatible
+/* Grid:
+grid-template-columns:
+    Asignar columnas
+    Unidades: %, px, auto, V, fr;
+grid-template-rows:
+    Asignar Valores a filas y las crea
+    Unidades: %, px, auto, V, fr;
+grid-auto-rows:
+    Para asginar altura a las filas automaticas
+grid-auto-flow:
+    Para asignar row
+                 row-reverse
+                 column
+                 column-reverse
+repeat: (#, Valor)
+minmax(minimo, mayor)
+Column-gap:
+    Separacion de Columnas
+row-gap:
+    Separacion de filas
+gap:
+    row  column
+Auto-fill: Ajsuta el numero de columnas mientras sea el ancho minimo
+Auto-fit: ocupa todo el espacio, ajusta al limite;
+Grid-column-start: Para decir en cual inicia;
+Grid-column-end: Decir en cual finaliza;
+span: Define el numero de cuadros
+Grid-column: 
+    start/end
+Grid-row-start:
+    Dice en que fila inicia
+Grid-row-end:
+    Dice en que fila termina
+Grid-row: 
+    start/end
+Grid-area:
+    row-start/column-start/row-end/column-end
+Order: 
+Cambia el orden de los elementos
+Grid-template:
+    altura de la columna / ancho
 */
 .color-red{
     color: gray
